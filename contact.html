@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/peanut.jpeg" alt="My Cat">
+                <h1>Michelle Scaramuzzo</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Contact Me</h2>
+        <form action="mailto:michellescaramuzzo@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Your Name" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Your Email" required>
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" placeholder="Type your message here" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Michelle Scaramuzzo. All Rights Reserved.</p>
+        <a href="https://www.linkedin.com/in/michellescaramuzzo/" target="_blank">
+            <img src="img/linkedin.jpeg" alt="LinkedIn Logo">
+        </a>
+    </footer>
+</body>
+</html>

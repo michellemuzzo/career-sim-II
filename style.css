@@ -1,0 +1,87 @@
+/* General Styles */
+body {
+    background-color: black;
+    color: white; /* Ensure all text is visible */
+    font-family: 'Arial', sans-serif; /* Use a clean and professional font */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Header */
+header {
+    display: flex; /* Makes header a flex container */
+    justify-content: space-between; /* Separates logo and nav links */
+    align-items: center; /* Vertically centers content */
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    padding: 0 20px; /* Adds horizontal spacing */
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Subtle shadow for depth */
+    position: fixed;
+    top: 0;
+    z-index: 1000; /* Ensure header stays above content */
+}
+
+main {
+    margin-top: 100px; /* Pushes content down below the fixed header */
+    padding: 20px;
+}
+
+
+.home-image {
+    max-width: 300px; /* Limit the width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Optional: Rounded corners for a polished look */
+    margin: 20px auto; /* Center and add space */
+    display: block; /* Ensure it aligns centrally */
+    box-shadow: 0 2px 6px rgba(255, 255, 255, 0.2); /* Optional shadow for effect */
+}
+
+
+/* Logo Section */
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px; /* Adjust size for better balance */
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px; /* Space between image and text */
+}
+
+header h1 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Navigation Links */
+header .nav-links {
+    display: flex;
+    list-style: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-links li {
+    margin-left: 20px; /* Space between navigation links */
+}
+
+header .nav-links a {
+    text-decoration: none; /* Removes underline */
+    font-size: 1rem;
+    color: white; /* White for visibility */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth hover effect */
+}
+
+header .nav-links a.active {
+    color: yellow; /* Highlight active page */
+}
+
+header .nav-links a:hover {
+    color: yellow; /*
+
+
